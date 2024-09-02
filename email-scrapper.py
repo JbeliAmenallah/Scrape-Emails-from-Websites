@@ -127,8 +127,8 @@ async def main():
         
         async with async_playwright() as p:
             browser = await p.chromium.launch(
-                headless=False,  # Show browser window
-                executable_path='C:/Program Files/Google/Chrome/Application/chrome.exe'  # Path to Chrome executable
+                executable_path='/usr/bin/google-chrome',  # Update this path if needed
+                headless=False  # Show browser window
             )
             
             results = []
@@ -137,6 +137,7 @@ async def main():
                 results.append(result)
             
             await browser.close()
+
         
         df['Email'] = results
         

@@ -1,0 +1,54 @@
+
+
+An error occurred: Failed to launch chromium because executable doesn't exist at C:/Program Files/Google/Chrome/Application/chrome.exe
+Traceback (most recent call last):
+  File "/home/amen/Desktop/scrape_email/email-scrapper.py", line 129, in main
+    browser = await p.chromium.launch(
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/async_api/_generated.py", line 14675, in launch
+    await self._impl_obj.launch(
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/_impl/_browser_type.py", line 96, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 482, in wrap_api_call
+    return await cb()
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 97, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.Error: Failed to launch chromium because executable doesn't exist at C:/Program Files/Google/Chrome/Application/chrome.exe
+
+An error occurred: Failed to launch chromium because executable doesn't exist at /snap/bin/chromium
+Traceback (most recent call last):
+  File "/home/amen/Desktop/scrape_email/email-scrapper.py", line 129, in main
+    browser = await p.chromium.launch(
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/async_api/_generated.py", line 14675, in launch
+    await self._impl_obj.launch(
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/_impl/_browser_type.py", line 96, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 482, in wrap_api_call
+    return await cb()
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 97, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.Error: Failed to launch chromium because executable doesn't exist at /snap/bin/chromium
+
+An error occurred: Failed to launch chromium because executable doesn't exist at /snap/bin/chrome
+Traceback (most recent call last):
+  File "/home/amen/Desktop/scrape_email/email-scrapper.py", line 129, in main
+    browser = await p.chromium.launch(
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/async_api/_generated.py", line 14675, in launch
+    await self._impl_obj.launch(
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/_impl/_browser_type.py", line 96, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 482, in wrap_api_call
+    return await cb()
+  File "/home/amen/Desktop/scrape_email/venv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 97, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.Error: Failed to launch chromium because executable doesn't exist at /snap/bin/chrome
+
+Error navigating to contact link mailto:hn@ycombinator.com: net::ERR_ABORTED at mailto:hn@ycombinator.com
+=========================== logs ===========================
+navigating to "mailto:hn@ycombinator.com", waiting until "networkidle"
+============================================================
