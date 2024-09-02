@@ -3,7 +3,7 @@ import re
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
-# Function to validate email addresses
+# Function to validate email addressess
 def is_valid_email(email):
     # Simple regex pattern for basic email validation
     pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
